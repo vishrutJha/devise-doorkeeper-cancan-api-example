@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.5'
 gem 'rails-api'
 gem 'active_model_serializers', '>=0.10.x'
-gem 'pg'
+gem 'mysql2'
 gem 'dotenv-rails'
 gem 'puma'
 gem 'foreman'
