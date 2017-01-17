@@ -1,9 +1,9 @@
-Example API
--------------
+Example API with MySQL
+----------------------
 
 # rails 4, rails-api, devise, doorkeeper, oauth, cancancan, rspec, puma, vcr, factory_girl, reqres_rspec, pg, dotenv, rack-cors, active_model_serializers, rubocop 
 
-Rails API with a nice User management
+Rails API with a nice User management forked from [rillian](https://github.com/rilian/devise-doorkeeper-cancan-api-example), updated and built for latest rails and MySQL
 via `devise` gem, with both frontend forms and JSON access, and with a
 token-based OAuth authentication via `doorkeeper`. Sample authorization is done
 with `cancancan` and also is tested.
