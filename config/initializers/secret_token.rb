@@ -1,1 +1,1 @@
-Rails.application.config.secret_key_base = "c4a91fd8fd6a65cf9a97e08298ee26249241aea2e78b940ca2346c47fdad5646a354f3194c805a0d7925f83c73da3e4af7dcc823db9658f8ffbb067e41f57292"
+Rails.application.config.secret_key_base = ENV['SECRET_KEY_BASE']

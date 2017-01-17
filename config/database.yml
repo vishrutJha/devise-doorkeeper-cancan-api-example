@@ -12,19 +12,19 @@ development:
   <<: *default
   database: example_app
   pool: 5
-  username: root
-  password: vimaster
+  username: user
+  password: password
 
 staging:
   <<: *default
   database: example_app
-  pool: 5
+  pool: 25
   username: someuser
   password: somepassword
 
 production:
   <<: *default
   database: example_app
-  pool: 5
+  pool: 50
   username: someuser
   password: somepassword
